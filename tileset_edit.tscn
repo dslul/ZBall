@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://assets/floor.tex" type="Texture" id=1]
+[ext_resource path="res://assets/grassWhole.tex" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="floor" type="Sprite" parent="."]
+
+transform/pos = Vector2( 234.903, 86.4265 )
+texture = ExtResource( 1 )
+offset = Vector2( 0, 10 )
+
+[node name="floor_grass" type="Sprite" parent="."]
+
+transform/pos = Vector2( 463, 117 )
+texture = ExtResource( 2 )
+offset = Vector2( 0, 10 )
+
+
